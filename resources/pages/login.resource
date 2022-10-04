@@ -20,3 +20,13 @@ loguin errado
     ...            css=.Toastify__toast-body div >> text=${mensagem_esperada}
     
     Wait For Elements State    ${localizar}    visible    3
+    #Thinking time
+    Sleep    1
+
+Email vazia
+    Fill Text    css=input[name=password]       vaibrasil
+    Click    css=button >> text=Entrar
+
+Senha vazia
+    Fill Text   css=input[name=email]        papito@gmail.com 
+    Click    css=button >> text=Entrar
