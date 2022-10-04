@@ -31,7 +31,7 @@ Nao deve logar sem a senha
     Senha vazia
     loguin errado    Por favor, informe a sua senha secreta!
     
-Nao dve logar sem o email
+Nao deve logar sem o email
     Pagina principal
     Email vazia
     loguin errado    Por favor, informe o seu email!
